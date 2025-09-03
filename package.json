@@ -1,0 +1,16 @@
+{
+  "name": "compress-image-tinypng-free",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "user-agents": "^1.1.646"
+  }
+}
