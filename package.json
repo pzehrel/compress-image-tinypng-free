@@ -37,7 +37,7 @@
     "test": "vitest"
   },
   "peerDependencies": {
-    "unplugin-compress-image": "*"
+    "unplugin-compress-image": ">=1.0.0"
   },
   "dependencies": {
     "unplugin-compress-image": "^0.0.2",
