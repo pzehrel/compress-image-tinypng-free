@@ -1,16 +1,47 @@
 {
-  "name": "compress-image-tinypng-free",
+  "name": "compress-image-tinypng-web",
+  "type": "module",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    
-  },
-  "keywords": [],
-  "author": "",
+  "packageManager": "pnpm@10.15.1",
+  "description": "A unplugin-compress-image plugin that uses the api version of TinyPNG for image compression.",
+  "author": "pzehrel",
   "license": "MIT",
-  "packageManager": "pnpm@10.14.0",
+  "keywords": [
+    "unplugin",
+    "unplugin-compress-image"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    ".": "./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "module": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown -w",
+    "lint": "eslint .",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "unplugin-compress-image": "*"
+  },
   "dependencies": {
+    "unplugin-compress-image": "^0.0.2",
     "user-agents": "^1.1.646"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.1",
+    "@types/user-agents": "^1.0.4",
+    "eslint": "^9.34.0",
+    "eslint-plugin-format": "^1.0.1",
+    "tsdown": "^0.14.2",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
   }
 }

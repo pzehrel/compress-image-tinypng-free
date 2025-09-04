@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["DOM", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"],
+    "strict": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["dist", "eslint.config.js"]
+}

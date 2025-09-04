@@ -1,0 +1,29 @@
+# unplugin-compress-image-tinypng-web
+
+A compressor for [unplugin-compress-image](https://github.com/pzehrel/unplugin-compress-image). Uses the TinyPNG official website API. File size will be limited to under 5MB.
+
+[![npm version](https://img.shields.io/npm/v/unplugin-compress-image-tinypng-free?style=flat-square)](https://www.npmjs.com/package/unplugin-compress-image-tinypng-free)
+[![npm downloads](https://img.shields.io/npm/dm/unplugin-compress-image-tinypng-free?style=flat-square)](https://www.npmjs.com/package/unplugin-compress-image-tinypng-free)
+[![license](https://img.shields.io/npm/l/unplugin-compress-image-tinypng-free?style=flat-square)](https://www.npmjs.com/package/unplugin-compress-image-tinypng-free)
+
+## Usage
+
+```bash
+pnpm add -D unplugin-compress-image-tinypng-free unplugin-compress-image
+```
+
+```ts
+import CompressImage from 'unplugin-compress-image'
+import CompressImageTinypngFree from 'unplugin-compress-image-tinypng-free'
+import { defineConfig } from 'vite'
+export default defineConfig({
+  plugins: [
+    CompressImage({
+      compressors: [ CompressImageTinypngFree ],
+      // optional
+      jsquash: false,
+      tinypng: false,
+    })
+  ]
+})
+```
