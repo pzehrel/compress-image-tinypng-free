@@ -38,6 +38,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^5.2.1",
     "@types/user-agents": "^1.0.4",
+    "bumpp": "^10.2.3",
     "eslint": "^9.34.0",
     "eslint-plugin-format": "^1.0.1",
     "tsdown": "^0.14.2",
