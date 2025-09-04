@@ -6,6 +6,14 @@
   "description": "A unplugin-compress-image plugin that uses the api version of TinyPNG for image compression.",
   "author": "pzehrel",
   "license": "MIT",
+  "homepage": "https://github.com/pzehrel/compress-image-tinypng-web#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pzehrel/compress-image-tinypng-web"
+  },
+  "bugs": {
+    "url": "https://github.com/pzehrel/unplugin-compress-image-tinypng-web/issues"
+  },
   "keywords": [
     "unplugin",
     "unplugin-compress-image"
