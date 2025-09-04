@@ -14,12 +14,12 @@ pnpm add -D unplugin-compress-image-tinypng-free unplugin-compress-image
 
 ```ts
 import CompressImage from 'unplugin-compress-image'
-import CompressImageTinypngFree from 'unplugin-compress-image-tinypng-free'
+import CompressImageTinypngWeb from 'unplugin-compress-image-tinypng-web'
 import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [
     CompressImage({
-      compressors: [ CompressImageTinypngFree ],
+      compressors: [ CompressImageTinypngWeb() ],
       // optional
       jsquash: false,
       tinypng: false,
