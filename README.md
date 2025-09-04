@@ -1,10 +1,10 @@
-# unplugin-compress-image-tinypng-web
+# compress-image-tinypng-web
 
 A compressor for [unplugin-compress-image](https://github.com/pzehrel/unplugin-compress-image). Uses the TinyPNG official website API. File size will be limited to under 5MB.
 
-[![npm version](https://img.shields.io/npm/v/unplugin-compress-image-tinypng-free?style=flat-square)](https://www.npmjs.com/package/unplugin-compress-image-tinypng-free)
-[![npm downloads](https://img.shields.io/npm/dm/unplugin-compress-image-tinypng-free?style=flat-square)](https://www.npmjs.com/package/unplugin-compress-image-tinypng-free)
-[![license](https://img.shields.io/npm/l/unplugin-compress-image-tinypng-free?style=flat-square)](https://www.npmjs.com/package/unplugin-compress-image-tinypng-free)
+[![npm version](https://img.shields.io/npm/v/compress-image-tinypng-web?style=flat-square)](https://www.npmjs.com/package/compress-image-tinypng-web)
+[![npm downloads](https://img.shields.io/npm/dm/compress-image-tinypng-web?style=flat-square)](https://www.npmjs.com/package/compress-image-tinypng-web)
+[![license](https://img.shields.io/npm/l/compress-image-tinypng-web?style=flat-square)](https://www.npmjs.com/package/compress-image-tinypng-web)
 
 ## Usage
 
