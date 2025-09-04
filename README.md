@@ -9,12 +9,12 @@ A compressor for [unplugin-compress-image](https://github.com/pzehrel/unplugin-c
 ## Usage
 
 ```bash
-pnpm add -D unplugin-compress-image-tinypng-free unplugin-compress-image
+pnpm add -D compress-image-tinypng-web unplugin-compress-image
 ```
 
 ```ts
 import CompressImage from 'unplugin-compress-image'
-import CompressImageTinypngWeb from 'unplugin-compress-image-tinypng-web'
+import CompressImageTinypngWeb from 'compress-image-tinypng-web'
 import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [
